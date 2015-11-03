@@ -4,7 +4,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Home extends React.Component {
+class HelloWorld extends React.Component {
   constructor() {
     super()
 
@@ -20,4 +20,4 @@ class Home extends React.Component {
   }
 }
 
-ReactDOM.render(<Home />, document.getElementById('app'));
+ReactDOM.render(<HelloWorld />, document.getElementById('app'));

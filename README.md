@@ -50,4 +50,4 @@ Run the server from the project root
 ***
 
 - [Read the relative blog post](http://nick.balestra.ch/2015/up-and-running-with-jspm-for-react/) for more information
-- Looking for using webpack? Check the [Webpack React starter Kit](https://github.com/nickbalestra/webpack-react-starterKit)
+- Looking for using Webpack instead? Check the [Webpack - React starter kit](https://github.com/nickbalestra/webpack-react-starter-kit)
