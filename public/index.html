@@ -1,0 +1,15 @@
+<!doctype html public "restroom">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>  
+</head>
+<body>
+<div id="app"></div>
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+<script>
+    System.trace = true;
+    System.import('../app/index').catch(console.error.bind(console))
+</script>
+</body>

@@ -1,2 +1,5 @@
 ## node modules
 node_modules
+##jspm
+public/jspm_packages
+.DS_Store

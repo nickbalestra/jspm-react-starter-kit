@@ -1,22 +1,30 @@
 {
-  "name": "webpack-setup",
+  "name": "jspn-setup",
   "version": "1.0.0",
-  "description": "Setting up webpack",
+  "description": "Setting up jspn",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "react": "^0.14.1",
-    "react-dom": "^0.14.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.0.14",
-    "babel-loader": "^6.0.0",
-    "babel-preset-es2015": "^6.0.14",
-    "babel-preset-react": "^6.0.14",
-    "webpack": "^1.12.2"
+    "jspm": "^0.16.14"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "public"
+    },
+    "dependencies": {
+      "jsx": "github:floatdrop/plugin-jsx@^1.1.0",
+      "react": "npm:react@^0.14.2",
+      "react-dom": "npm:react-dom@^0.14.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }
