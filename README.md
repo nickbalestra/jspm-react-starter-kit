@@ -31,11 +31,11 @@ Install npm dependencies:
 
 Install jspm dependencies:
 
-'$ jspm i'
+`$ jspm i`
 
 You are now ready to go! Serve your index.html app via a server and you will see your hellow world react component rendered!
 
-### Prototype JSPM development server
+## Prototype JSPM development server
 
 You can use the jspm-server as a development server for JSPM static sites. It's based on @tapio's excellent live-server:
 
@@ -47,6 +47,7 @@ Run the server from the project root
 
 `$ jspm-server`
 
-[Read the relative blog post](http://nick.balestra.ch/2015/up-and-running-with-jspm-for-react/) for more information
+***
 
-Looking for using webpack? Check the [Webpack React starter Kit](https://github.com/nickbalestra/webpack-react-starterKit)
+- [Read the relative blog post](http://nick.balestra.ch/2015/up-and-running-with-jspm-for-react/) for more information
+- Looking for using webpack? Check the [Webpack React starter Kit](https://github.com/nickbalestra/webpack-react-starterKit)
