@@ -1,7 +1,7 @@
 JSPM - REACT starter kit
 ===========================
 
-Use this repo to kickstart your react development using JSPM, a package manager for the SystemJS universal module loader.
+A starter kit to bootstrap your react development using JSPM, a package manager for the SystemJS universal module loader.
 
 Why JSPM in a nutshell:
 
